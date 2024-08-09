@@ -1,0 +1,1 @@
+docker run -it --platform linux/amd64 --mount type=bind,src=.,dst=/app --mount type=volume,dst=/app/node_modules -p 2324:2324 alpine:latest
